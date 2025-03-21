@@ -2,7 +2,7 @@ const flowersContainer = document.querySelector('.flowers');
 
 function createFlower() {
     const flower = document.createElement('div');
-    flower.innerHTML = '🌼';
+    flower.innerHTML = '🌻';
     flower.classList.add('flower');
     flower.style.left = Math.random() * 100 + 'vw';
     flower.style.animationDuration = Math.random() * 2 + 3 + 's';
