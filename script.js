@@ -6,6 +6,7 @@ function createFlower() {
     flower.classList.add('flower');
     flower.style.left = Math.random() * 100 + 'vw';
     flower.style.animationDuration = Math.random() * 2 + 3 + 's';
+    flower.style.fontSize = Math.random() * 20 + 20 + 'px';
     flowersContainer.appendChild(flower);
 
     setTimeout(() => {
